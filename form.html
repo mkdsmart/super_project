@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title>my form</title>
+</head>
+<body>
+
+	<div class="container">
+<form>
+	<legend>
+		<h3>user info</h3>
+		<label>Name: </label><br>
+		<input type="text" name="txt" required><br>
+		<label>SurName: </label><br>
+		<input type="text" name="txt" required><br>
+		<label>Phone: </label><br>
+		<input type="tel" required><br>
+		<label>Email: </label><br>
+		<input type="email" name="email" placeholder="address@gmail.com" required><br>
+		<label>Date of birth: </label><br>
+		<input type="date" name="date" required><br>
+		<label>image: </label><br>
+		<input type="file" name="image" accept=""image/x-png,image/jpg,image/jpeg"><br>
+		<label>sex: </label><br>
+		<input type="radio" name="sex" value="M" required>M<br>
+		<input type="radio" name="sex" value="F">F<br>
+		<label>Login: </label><br>
+		<input type="button" name="login" required><br>
+		<label>Password: </label><br>
+		<input type="password" name="psw" minlength="8" required><br>
+	</legend>
+	<legend>
+		<h3>school info</h3>
+		<label>school Name:</label><br>
+		<input type="text" name="txt" value="IME" disabled><br>
+		<label>year</label><br>
+		<input type="number" name="number" min="2020" max="2022" required><br>
+		<label>level</label><br>
+		<input type="number" name="num" min="1" max="5" required><br>
+		<label>select your courses: </label><br>
+		<input type="checkbox" name="course1" required>course 1<br>
+		<input type="checkbox" name="course2" multiple>course 2<br>
+		<input type="checkbox" name="course3" multiple>course 3<br>
+	</legend><br>
+	<button><a href="time.html"> submit</button>
+</form>
+</div>
+</body>
+</html>
